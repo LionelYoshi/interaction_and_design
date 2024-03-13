@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Select and </title>
+    <style>
+        h3{
+            text-align: left;
+        }
+        p {
+            text-align: center;
+        }
+        .txt1{
+            text-align: center;
+        }
+        h1.txt1{
+            color: red;
+        }
+        div strong {color: red;}
+        a:link {color: green} 
+        a:visited {color: red} 
+        p:hover {color: red} 
+        
+        body{
+            margin: 20px;
+            border: 1px solid black;
+        }
+        .container{
+
+            margin: 30px;
+            border: solid 1px orange;
+            padding: 10px;
+        }
+        .box1{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+        .box2{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border: 1px yellow solid;
+            position: absolute;
+            left: 20px;
+            top: 20px;
+        }
+        .box3{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: fixed;
+            right: 0;
+            top: 30px;
+        }
+        .box4{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }
+    </style>
+</head>
+    <body>
+        <div> 
+        <h1 class="txt1">The h1 text-align set to center.</h1> 
+        <h2 class="txt1">The h2 text-align set to center.</h2> 
+        <h3>The h3 text-align set to left.</h3> 
+        <p>The p text-align set to center.</p> 
+        </div>
+        <div>    
+        <p>The red style 
+                <strong>has been applied to this element.</strong>
+            </p>
+        </div> 
+        <p>The red style 
+            <strong>has not been applied to this element.</strong></p>
+            <a href="http://by.cuc.edu.cn/">Visit CUC Website</a> 
+            <p>The red style is applied when the mouse cursor hovers over this element.</p>
+        <div class="container">
+            <div class="box1"></div><br>    
+            <div class="box1"></div><br>    
+            <div class="box1"></div><br>    
+            <div class="box1"></div><br>    
+            <div class="box1"></div><br>    
+            <div class="box1"></div><br>    
+            <div class="box1"></div><br>    
+            <div class="box1"></div><br>    
+            <div class="box1"></div><br>    
+            <div class="box1"></div><br>    
+            <div class="box2"></div>
+            <div class="box3"></div>
+            <div class="box4"></div>
+        </div>
+    </body>
+</html>
